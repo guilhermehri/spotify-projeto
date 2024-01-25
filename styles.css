@@ -179,3 +179,69 @@ h1{
     padding: 8px;
     border-radius: 20px;
 }
+
+.footer{
+    background-image: linear-gradient(90deg,#af2896,#509bf5);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    margin: 10px;
+    height: auto;
+    width: 100%;
+    
+}
+
+.footer .footer__content{
+
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    cursor: pointer;
+    padding: 11px 24px 7px 15px;
+    
+    
+
+}
+
+.footer .footer__title{
+    font-size: 13px;
+    padding: 4px;
+    
+}
+
+.footer .footer__text{
+    font-size: 14px;
+    font-weight: 100;
+    color:inherit;
+    padding: 5px;
+    
+}
+
+.footer .footer__button{
+    background-color: #fff;
+    vertical-align: middle;
+    position:relative;
+    text-align: center;
+    display: inline-block;
+    border: 0px;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 9999px;
+    box-sizing: border-box;
+    margin: 10px 35px 7px 0; 
+}
+
+.footer .button__text{
+    text-align: center;
+    display: flex;
+    font-size: 16px;
+    border: 0px;
+    padding: 8px 32px;
+    vertical-align: middle;
+    align-self: center;
+}
+
+
