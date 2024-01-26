@@ -1,5 +1,8 @@
+/*PT da sidebar-footer*/
+
 body{
     background-color: black;
+    /*var --font*/
     font-family: var(--font-dm-sans);
 }
 
@@ -18,7 +21,7 @@ h1{
 
 .sidebar__navigation{
     background-color: #121212;
-    padding: 16px 0 0 16px;
+    padding: 8px 0 0 0;
     border-radius: 8px;
 }
 
@@ -48,7 +51,11 @@ h1{
     color:#b3b3b3;
     text-decoration: none;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
+}
+
+.sidebar .fa-home, .fa-search{
+    margin-right: 20px;
 }
 
 .library{
